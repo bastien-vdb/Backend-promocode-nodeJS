@@ -1,0 +1,17 @@
+{
+    "compilerOptions": {
+        "module": "NodeNext",
+        "esModuleInterop":true,
+        "moduleResolution": "node",
+        "baseUrl": "src",
+        "outDir": "dist",
+        "sourceMap": true,
+        "noImplicitAny": true,
+        "types": [
+            "node",
+            "jest" 
+        ]
+    },
+    "include": ["."],
+    "exclude": ["./dist"]
+}
